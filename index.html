@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Rainbow Rock</title>
+</head>
+<body class="fundo">
+    <!-- Barra de navegação -->
+    <nav class="navbar navbar-expand-lg nav">
+        <div class="container-fluid">
+          <a class="navbar-brand para" href="./index.html">><img class="logos" src="./img/rainbowrock.png" alt="logo"></a>
+          <button class="navbar-toggler para" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+          </button>
+          <div class="collapse navbar-collapse para" id="navbarNavDropdown">
+            <ul class="navbar-nav para">
+              <li class="nav-item para">
+                <a class="nav-link active font1" aria-current="page" href="./html/login.html" style="color:#ffffff ;">Login</a>
+              </li>
+              <li class="nav-item para">
+                <a class="nav-link font1" href="./html/Informações.html" style="color:#ffffff ;">Ingressos</a>
+              </li>
+              <li class="nav-item para">
+                <a class="nav-link font1" href="./html/loja.html" style="color:#ffffff ;">Loja</a>
+              </li>
+              <li class="nav-item dropdown para">
+                <a class="nav-link dropdown-toggle font1" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:#ffffff ;">
+                  Explore
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item font1" href="./html/mapa.html">Mapa</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+<!-- Carousel -->
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators" >
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner" id="carros">
+          <div class="carousel-item active">
+            <img src="./img/metallica.jpg" class="d-block w-100" alt="1">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Metallica</h5>
+              <p>Com a participação especial do ator Joseph Quinn!!</p>
+            </div>
+          </div>
+          <div class="carousel-item" id="carros">
+            <img src="./img/nirvana.jpg" class="d-block w-100" alt="2">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Nirvana</h5>
+              <p>Primeiro show da banda após a recuperação de Kurt</p>
+            </div>
+          </div>
+          <div class="carousel-item" id="carros">
+            <img src="./img/guns-n-roses.jpg" class="d-block w-100" alt="3">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Guns N Roses</h5>
+              <p>Pela primeira vez em ANOS, com a formação de Apetite for Destruction</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+      <!-- card verm/lar/ama -->
+
+      <div class="card-group">
+        <div class="card" id="cardvermelha">
+          <img src="./img/vermelho.jpg" class="card-img-top" alt="vermelho" id="cores">
+          <div class="card-body">
+            <h5 class="card-title txt">Wellcome to the Jungle</h5>
+            <p  class="card-text txt">Guns and Roses / Mother Mother / Red Hot Chili Pepers </p>
+            <p class="card-text txt" ><small class="text-muted">2 de agosto</small></p>
+          </div>
+        </div>
+        <div class="card" id="cardvermelha">
+          <img src="./img/laranja.jpg" class="card-img-top" alt="laranja" id="cores">
+          <div class="card-body">
+            <h5 class="card-title txt" >Orange is the new black</h5>
+            <p class="card-text txt" >A-HA / The Pashe Mode /</p>
+            <p class="card-text txt" ><small class="text-muted">3 de agostp</small></p>
+          </div>
+        </div>
+        <div class="card" id="cardvermelha">
+          <img src="./img/amarelo.jpg" class="card-img-top" alt="amarelo" id="cores">
+          <div class="card-body">
+            <h5 class="card-title txt" >Oh well, whatever, never mind</h5>
+            <p class="card-text txt" > Nirvana / Pearl Jam / Soundgarden / Foo Fighters</p>
+            <p class="card-text txt" ><small class="text-muted">4 de agosto</small></p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- card verd/azul/rox -->
+
+      <div class="card-group">
+        <div class="card" id="cardverde">
+          <img src="./img/verde.jpg" class="card-img-top" alt="verde" id="cores">
+          <div class="card-body">
+            <h5 class="card-title txt">Green Day, wait</h5>
+            <p class="card-text txt" >Paralamas do Sucesso / Charlie brow Jr / Legião Urbana</p>
+            <p class="card-text txt" ><small class="text-muted">5 de agosto</small></p>
+          </div>
+        </div>
+        <div class="card" id="cardverde">
+          <img src="./img/azul.jpg" class="card-img-top" alt="azul" id="cores">
+          <div class="card-body">
+            <h5 class="card-title txt" >No alarms, and no suprises</h5>
+            <p class="card-text txt">Radiohead / Keane / Oasis</p>
+            <p class="card-text txt" ><small class="text-muted">6 de agosto</small></p>
+          </div>
+        </div>
+        <div class="card" id="cardverde">
+          <img src="./img/roxo.jpg" class="card-img-top" alt="roxo" id="cores">
+          <div class="card-body">
+            <h5 class="card-title txt">Oh,the misery,everybody wants to be my enemy</h5>
+            <p class="card-text txt">Gorillaz / Imagine Dragons / Maneskin</p>
+            <p class="card-text txt"><small class="text-muted">7 de agosto</small></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- card pre/mar/!! -->
+
+      <div class="card-group">
+        <div class="card" id="cardverde">
+          <img src="./img/rosa.jpg" class="card-img-top" alt="rosa" id="cores">
+          <div class="card-body">
+            <h5 class="card-title txt">Pink Day</h5>
+            <p class="card-text txt"> Queen / Beatles / </p>
+            <p class="card-text txt"><small class="text-muted">8 de agosto</small></p>
+          </div>
+        </div>
+        <div class="card" id="cardverde">
+          <img src="./img/preto.jpg" class="card-img-top" alt="preto" id="cores">
+          <div class="card-body">
+            <h5 class="card-title txt">Obey your master</h5>
+            <p class="card-text txt">Metallica / Iron Maiden / Sistem of Dow </p>
+            <p class="card-text txt"><small class="text-muted">9 de agosto</small></p>
+          </div>
+        </div>
+        <div class="card" id="cardverde">
+          <img src="./img/marrom.jpg" class="card-img-top" alt="marrom" id="cores">
+          <div class="card-body">
+            <h5 class="card-title txt">Love Street</h5>
+            <p class="card-text txt">The Doors / Kansas / David Bowie </p>
+            <p class="card-text txt"><small class="text-muted">10 de agosto</small></p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="mb-3 diga">
+        <label for="exampleFormControlInput1" class="form-label txt">Endereço de email</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="mb-3 diga">
+        <label for="exampleFormControlTextarea1" class="form-label txt">Nos conte oque achou do show!!</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea> 
+        <br>
+        <a href="#" class="btn btn-primary">Enviar</a>
+      </div>
+
+       <!-- anuncio -->
+
+      <div class="card text-bg-dark">
+        <img src="./img/naobebepoha.jpg" class="card-img" alt="anuncio" id="anuncio">
+        <div class="card-img-overlay">
+          <h5 class="card-title"></h5>
+          <p class="card-text"></p>
+          <p class="card-text"><small></small></p>
+        </div>
+      </div>
+      
+      <!-- apoiadores -->
+      <div id="apoiadores">
+        <h6 class="font1 apoie txt">Patrocinado por:</h6> 
+        <img class="amigos" src="./img/GreenDay.png" alt="greenday"> <img class="amigos" src="./img/Nike.png" alt="nike"> <img id="amigo" src="./img/SkaterStyle.png" alt="SkaterStyle"> <img id="coca" src="./img/cocacola.png" alt="cocacola"> <img class="amigos" src="./img/americanas.png" alt="americanas"> <br> 
+        <img id="amigo1" src="./img/MauroReceitas.jpg" alt="MauroReceitas"> <img id="amigo2" src="./img/JapierCoffe.jpg" alt="JapierCoffe"> <img id="Heineken" src="./img/Heineken.png" alt="Heineken">
+      </div>
+
+ <!-- Bootstrap JavaScript Libraries -->
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+ integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous">
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+ integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous">
+</script>
+
+</body>
+</html>
